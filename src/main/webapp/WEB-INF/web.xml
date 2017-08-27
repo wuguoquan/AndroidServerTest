@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!--servlet-->
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.wugq.book.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.wugq.book.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SaveBookServlet</servlet-name>
+    <servlet-class>com.wugq.book.SaveBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveBookServlet</servlet-name>
+    <url-pattern>/SaveBook</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <servlet-class>com.wugq.book.QueryBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <url-pattern>/Query</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BorrowServlet</servlet-name>
+    <servlet-class>com.wugq.book.BorrowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BorrowServlet</servlet-name>
+    <url-pattern>/Borrow</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RepayServlet</servlet-name>
+    <servlet-class>com.wugq.book.RepayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RepayServlet</servlet-name>
+    <url-pattern>/Repay</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteBookServlet</servlet-name>
+    <servlet-class>com.wugq.book.DeleteBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteBookServlet</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QueryMyBorrowBookServlet</servlet-name>
+    <servlet-class>com.wugq.book.QueryMyBorrowBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryMyBorrowBookServlet</servlet-name>
+    <url-pattern>/MeBorrow</url-pattern>
+  </servlet-mapping>
+
+</web-app>
